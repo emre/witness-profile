@@ -242,6 +242,10 @@
       border-radius: 5px;
     }
 
+    table {
+      font-size: 0.9rem;
+    }
+
   </style>
 
 </head>
@@ -300,7 +304,7 @@
       <p class="lead mb-5">{{witness_data.witness_description}}</p>
       {% if witness_data.servers %}
       <h5 class="mb-2">Witness Servers</h5>
-      <table class="table">
+      <table class="table table-responsive">
         <thead>
         <tr>
           <th scope="col">Name</th>
@@ -324,7 +328,7 @@
       </table>
       {% endif %}
       <h5 class="mb-2">Live Witness Stats</h5>
-      <table class="table">
+      <table class="table table-responsive">
         <thead>
         <tr>
           <th scope="col">Last block</th>
