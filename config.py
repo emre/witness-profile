@@ -1,0 +1,1 @@
+WITNESS_PROFILE_JSON_FILE = "/users/emre/Projects/witness-profile/profile.json"
