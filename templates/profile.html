@@ -389,7 +389,7 @@
           <div>{{community.description}}</div>
         </div>
         <div class="resume-date text-md-right">
-          <span class="text-primary">Visit Community</span>
+          <span class="text-primary"><a href="https://steemit.com/@{{community.account}}" target="_blank">Visit Community</a></span>
         </div>
       </div>
       {%endfor%}
@@ -411,7 +411,7 @@
           <div class="mb-0" style="text-transform: none !important;">
             <img src="https://steemitimages.com/u/{{delegation.account}}/avatar"
                  alt="Avatar" class="avatar">
-            <a href="https://steemit.com/{{delegation.account}}">
+            <a href="https://steemit.com/@{{delegation.account}}">
               {{ delegation.account }}</a> ({{delegation.amount}} SP)
           </div>
         </div>
